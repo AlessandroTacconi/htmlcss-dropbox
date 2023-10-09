@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+button {
+  background-color: #0061ff;
+  border: none;
+  margin: 0;
+  padding: 12px 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+/*
+******
+HEADER
+******
+*/
+
+header div nav ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  padding: 30px 20px;
+}
+
+nav {
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  position: fixed;
+}
+
+header div nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.jumbotron {
+  text-align: left;
+  padding-top: 185px;
+  background-color: #b4d0e7;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 75px;
+  line-height: 120px;
+}
+
+.text-left {
+  width: 40%;
+}
+
+.text {
+  margin-bottom: 35px;
+}
+
+.text-img {
+  display: flex;
+  position: relative;
+}
+
+header i {
+  font-size: 60px;
+  margin: 45px 0 25px;
+}
+
+.img-right img {
+  max-width: 85%;
+  display: block;
+  position: absolute;
+}
