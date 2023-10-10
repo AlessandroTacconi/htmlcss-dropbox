@@ -382,3 +382,51 @@ a {
  .fa-chevron-down{
   padding-right: 45px;
  }
+
+ /*
+******
+/MAIN
+******
+*/
+
+/*
+******
+FOOTER
+******
+*/
+
+.nero{
+  margin-top: 90px;
+  background-color: black;
+  color: white;
+}
+
+.nero .container{
+   display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+} 
+
+.nero ul li {
+  list-style: none;
+padding-bottom: 25px;
+}
+
+.nero ul li h4{
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.perche{
+ 
+}
+
+.container .fa-earth-americas, .fa-caret-up{
+  padding: 10px;
+}
+
+.fine {
+  color: lightgray;
+   padding-top: 50px;
+  border-top: 2px solid white;
+}
